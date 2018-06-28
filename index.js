@@ -15,10 +15,11 @@ var obj={foo : 'bar'}
 function deleteFromObjectByKey(object, key)
 {
   delete object.key
-  return 
+  return obj
 }
 
 function destructDeleteFromObjectByKey(object, key)
 {
-  
+  delete object.key
+  return object
 }
