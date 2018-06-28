@@ -1,1 +1,1 @@
-var recipes = new object({key: value})
+var recipes = new object({})
